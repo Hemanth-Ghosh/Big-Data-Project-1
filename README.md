@@ -18,7 +18,6 @@ This analysis consists of using big data tools to answer questions about dataset
 # Features
 
 1.  Find, organize, and format pageviews on any given day.
-2.  Follow clickstreams to find relative frequencies of different pages.
-3.  Determine relative popularity of page access methods.
-4.  Compare yearly popularity of pages.
+2.  Determine relative popularity of page access methods.
+3.  Compare yearly popularity of pages.
 
