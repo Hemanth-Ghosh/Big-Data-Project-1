@@ -1,5 +1,3 @@
-
-//Question 3
 // Create an external table to load the data from the file
 CREATE EXTERNAL TABLE IF NOT EXISTS clickstream (
 	prev STRING,
