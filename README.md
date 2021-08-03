@@ -1,4 +1,5 @@
-# Big-Data-Spark-Project-1
+# Big-Data-Spark-Project-1 
+#### By: Hemanth Ghosh
 
 # Wikipedia Big Data Analysis
 
