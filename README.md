@@ -31,33 +31,32 @@ total_response_size: 733
 
 ## Types Of Data
 
-wikibooks: ".b"
+wikibooks: ".b"         wiktionary: ".d"
 
-wiktionary: ".d"
-
-foundationwiki: ".f"
-
-mobile sites: ".m"
-wikinews: ".n"
-wikiquote: ".q"
-wikisource: ".s"
-wikiversity: ".v"
-wikivoyage: ".voy"
-mediawikiwiki: ".w"
+foundationwiki: ".f"        mobile sites: ".m"
+wikinews: ".n"          wikiquote: ".q"
+wikisource: ".s"        wikiversity: ".v"
+wikivoyage: ".voy"      mediawikiwiki: ".w"
 wikidatawiki: ".wd"
 
     For Problem Statement 2 & 3 we need to download Jan 2021 month DataSet.
     eg: other-search Camp_Tawonga external 183
 
-#Data Explanation
+## Data Explanation
+
 prev: the result of mapping the referrer URL to the fixed set of values described above
+
 curr: the title of the article the client requested
+
 type: describes (prev, curr)
+
 n: the number of occurrences of the (referrer, resource) pair
-Types Of Data
+
+## Types Of Data
+
 type: describes (prev, curr)
-link: if the referrer and request are both articles and the referrer links to the request
-external: if the referrer host is not en(.m)?.wikipedia.org
+    link: if the referrer and request are both articles and the referrer links to the request
+    external: if the referrer host is not en(.m)?.wikipedia.org
 
 
 # Problem Statement
