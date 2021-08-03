@@ -1,4 +1,4 @@
-// Create an external table to load the data from the file
+-- Create an external table to load the data from the file
 CREATE EXTERNAL TABLE IF NOT EXISTS clickstream (
 	prev STRING,
 	curr STRING,
@@ -8,10 +8,10 @@ CREATE EXTERNAL TABLE IF NOT EXISTS clickstream (
 	FIELDS TERMINATED BY '\t'
 	STORED AS TEXTFILE;
 
-// Load the data into the table from the file
+-- Load the data into the table from the file
 LOAD DATA INPATH '/user/maria_dev/data/clickstream-enwiki-2020-12.tsv' INTO TABLE clickstream;
 
-// Page with the most views in which internal links were used
+-- Question 2 - Page with the most views in which internal links were used
 select prev, sum(occ) as visits from clickstream
 where type = "link" 
 group by prev
