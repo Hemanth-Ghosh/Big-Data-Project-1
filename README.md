@@ -31,12 +31,16 @@ total_response_size: 733
 
 ## Types Of Data
 
-wikibooks: ".b"         wiktionary: ".d"
-
-foundationwiki: ".f"        mobile sites: ".m"
-wikinews: ".n"          wikiquote: ".q"
-wikisource: ".s"        wikiversity: ".v"
-wikivoyage: ".voy"      mediawikiwiki: ".w"
+wikibooks: ".b"         
+wiktionary: ".d"
+foundationwiki: ".f"        
+mobile sites: ".m"
+wikinews: ".n"          
+wikiquote: ".q"
+wikisource: ".s"        
+wikiversity: ".v"
+wikivoyage: ".voy"      
+mediawikiwiki: ".w"
 wikidatawiki: ".wd"
 
     For Problem Statement 2 & 3 we need to download Jan 2021 month DataSet.
