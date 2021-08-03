@@ -31,9 +31,9 @@ total_response_size: 733
 
 ## Types Of Data
 
-wikibooks: ".b"         
-wiktionary: ".d"
-foundationwiki: ".f"        
+    wikibooks: ".b"         
+    wiktionary: ".d"
+    foundationwiki: ".f"        
 mobile sites: ".m"
 wikinews: ".n"          
 wikiquote: ".q"
