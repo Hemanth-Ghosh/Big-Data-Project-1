@@ -22,13 +22,21 @@ This analysis consists of using big data tools to answer questions about dataset
 ## Data Explanation
 
 domain_code: fr.b
+
 page_title: Naphthol
+
 count_views: 1
+
 total_response_size: 733
-Types Of Data
+
+## Types Of Data
+
 wikibooks: ".b"
+
 wiktionary: ".d"
+
 foundationwiki: ".f"
+
 mobile sites: ".m"
 wikinews: ".n"
 wikiquote: ".q"
