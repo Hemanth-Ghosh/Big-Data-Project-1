@@ -1,4 +1,4 @@
-// Create an external table to load the data from the file
+-- Create an external table to load the data from the file
 CREATE EXTERNAL TABLE IF NOT EXISTS clickstream (
 	prev STRING,
 	curr STRING,
@@ -8,14 +8,15 @@ CREATE EXTERNAL TABLE IF NOT EXISTS clickstream (
 	FIELDS TERMINATED BY '\t'
 	STORED AS TEXTFILE;
 
-// Load the data into the table from the file
+-- Load the data into the table from the file
 LOAD DATA INPATH '/user/maria_dev/data/clickstream-enwiki-2020-12.tsv' INTO TABLE clickstream;
 
 
-// Pages starting with "Hotel California" who has the highest views and have clicked internal links
+-- Question 3 - Pages starting with "Hotel California" who has the highest views and have clicked internal links
+
 select prev, sum(occ) as visits from clickstream where prev like "%Hotel_California%" group by prev ORDER BY visits DESC limit 20;
 
-or 
+(or) 
 
 select prev, sum(pair) as visit 
 from clickstream 
