@@ -15,13 +15,15 @@ This analysis consists of using big data tools to answer questions about dataset
 6.  Yarn
 7.  Git + Github
 
-## Features
+## Features (Problem Statement)
 
-* Process the downloaded data & analyze the datasets.
-* Find, organize, and format pageviews on any given day.
-* Follow clickstreams to find relative frequencies of different pages.
-* Find the different way to analyze the most internal search link fraction of hotel california.
-* Determine relative popularity of page access methods.
+1. Which English wikipedia article got the most traffic on January 20, 2021? 
+2. What English wikipedia article has the highest views of its readers follow an internal link to another wikipedia article?
+3. What series of wikipedia articles, starting with Hotel California, keeps the highest views of its readers clicking on internal links.
+4. Find an example of an English wikipedia article that is relatively more popular in the Americas than elsewhere.There is no location data associated with the wikipedia pageviews    data, but there are timestamps. 
+5. Find which device(PC or Mobile) generates the most traffic on the English Wikipedia article?
+
+
 
 ## Getting Started
 
@@ -81,16 +83,7 @@ type: describes (prev, curr)
 link: if the referrer and request are both articles and the referrer links to the request
 
 external: if the referrer host is not en(.m)?.wikipedia.org
-    
-
-
-## Features (Problem Statement)
-
-1. Which English wikipedia article got the most traffic on January 20, 2021? 
-2. What English wikipedia article has the highest views of its readers follow an internal link to another wikipedia article?
-3. What series of wikipedia articles, starting with Hotel California, keeps the highest views of its readers clicking on internal links.
-4. Find an example of an English wikipedia article that is relatively more popular in the Americas than elsewhere.There is no location data associated with the wikipedia pageviews    data, but there are timestamps. 
-5. Find which device(PC or Mobile) generates the most traffic on the English Wikipedia article?
+   
 
 ## Usage
 
