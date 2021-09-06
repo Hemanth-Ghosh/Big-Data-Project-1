@@ -87,4 +87,4 @@ Monthly Clickstream
 
 ## License
 This project includes the following license:
-{license.md}
+[MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
