@@ -15,7 +15,7 @@ This analysis consists of using big data tools to answer questions about dataset
 6.  Yarn
 7.  Git + Github
 
-## Features (Problem Statement)
+## Features (Problem Statements)
 
 1. Which English wikipedia article got the most traffic on January 20, 2021? 
 2. What English wikipedia article has the highest views of its readers follow an internal link to another wikipedia article?
