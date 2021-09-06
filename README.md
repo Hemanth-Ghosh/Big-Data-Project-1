@@ -84,7 +84,7 @@ external: if the referrer host is not en(.m)?.wikipedia.org
     
 
 
-## Problem Statement
+## Features (Problem Statement)
 
 1. Which English wikipedia article got the most traffic on January 20, 2021? 
 2. What English wikipedia article has the highest views of its readers follow an internal link to another wikipedia article?
@@ -96,6 +96,16 @@ external: if the referrer host is not en(.m)?.wikipedia.org
 
 1. The HQL commands can be used on similar large datasets, specifically those found in Wikipedia dumps - https://dumps.wikimedia.org/
 2. This script was designed to answer all sorts of questions pertaining to big data.
+
+## Contributors
+
+* Devansh Sharma
+* Rajkumar K
+* Sailash R
+* Aparna Sankarasetti
+* Ashish Kumar
+* Pooja Kumari
+
 
 ## Data Set used
 
