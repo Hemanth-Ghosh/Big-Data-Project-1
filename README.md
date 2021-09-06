@@ -92,6 +92,11 @@ external: if the referrer host is not en(.m)?.wikipedia.org
 4. Find an example of an English wikipedia article that is relatively more popular in the Americas than elsewhere.There is no location data associated with the wikipedia pageviews    data, but there are timestamps. 
 5. Find which device(PC or Mobile) generates the most traffic on the English Wikipedia article?
 
+## Usage
+
+1. The HQL commands can be used on similar large datasets, specifically those found in Wikipedia dumps - https://dumps.wikimedia.org/
+2. This script was designed to answer all sorts of questions pertaining to big data.
+
 ## Data Set used
 
 [Pageviews Filtered to Human Traffic](https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews)
