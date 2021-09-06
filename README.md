@@ -77,13 +77,9 @@ external: if the referrer host is not en(.m)?.wikipedia.org
 
 ## Data Set used
 
-Pageviews Filtered to Human Traffic
-
-    https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
+[Pageviews Filtered to Human Traffic](https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews)
     
-Monthly Clickstream
-
-    https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
+[Monthly Clickstream](https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream)
 
 ## License
 This project includes the following license:
