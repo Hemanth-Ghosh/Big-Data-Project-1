@@ -15,6 +15,23 @@ This analysis consists of using big data tools to answer questions about dataset
 6.  Yarn
 7.  Git + Github
 
+## Features
+
+* Process the downloaded data & analyze the datasets.
+* Find, organize, and format pageviews on any given day.
+* Follow clickstreams to find relative frequencies of different pages.
+* Find the different way to analyze the most internal search link fraction of hotel california.
+* Determine relative popularity of page access methods.
+
+## Getting Started
+
+Most of the code was done using HQL in a Hive GUI interface via Data Analysis studio or CIL of root@sandbox.
+
+* Download Hortonworks community Edition -https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
+* Install Hortonworks on your machine or virtual machine - https://www.virtualbox.org/wiki/Downloads
+* Download Git Bash on your computer - https://git-scm.com/downloads
+* Clone my code - git clone https://github.com/myusufuc/Project_1.git
+* Setup the Hortonworks in virtual machine, import pageviews and clickstream data in hdfs, and start query in the CIL or DAS of hive.
 ## Data Definitions
 
     For Problem Statement 1, 4 & 5 we need to Download jan 20, 2021 DataSet.
