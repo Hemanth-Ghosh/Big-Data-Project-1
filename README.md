@@ -33,7 +33,7 @@ Most of the code was done using HQL in a Hive GUI interface via Data Analysis st
 * Install Hortonworks on your machine or virtual machine - https://www.virtualbox.org/wiki/Downloads
 * Download Git Bash on your computer - https://git-scm.com/downloads
 * Clone my code - git clone https://github.com/Hemanth-Ghosh/Big-Data-Project-1
-* Setup the Hortonworks in virtual machine, import pageviews and clickstream data in hdfs, and start query in the CIL or DAS of hive.
+* Setup the Hortonworks in virtual machine, import pageviews and clickstream data in hdfs, and start query in the CLI or DAS [Data Analytics Studio](localhost:1080).
 
 
 ## Data Definitions
