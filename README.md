@@ -94,12 +94,13 @@ external: if the referrer host is not en(.m)?.wikipedia.org
 
 ## Contributors
 
-* Devansh Sharma
-* Rajkumar K
-* Sailash R
-* Aparna Sankarasetti
-* Ashish Kumar
-* Pooja Kumari
+* [Devansh Sharma](https://github.com/devanshsharma-bigdata/P2-RAWG-Data-Analysis)
+* [Divya Reddy](https://github.com/Divyaredd/BIG_DATA_PROJECT2)
+* [Rajkumar](https://github.com/rajoffl/Analysis-on-RAWG-Dataset)
+* [Sailash R](https://github.com/Sailash/Project_2)
+* [Aparna Sankarasetti](https://github.com/aparnasankarasetti/project_1)
+* [Ashish Kumar](https://github.com/AshishK199/Project_01)
+* [Pooja Kumari](https://github.com/Pooja0210/Project1)
 
 
 ## Data Set used
